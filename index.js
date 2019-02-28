@@ -6,7 +6,7 @@ In DNA strings, symbols "A" and "T" are complements of each other, as "C" and "G
 
 function getDna(dna) {
   let complements = ''
-  for (let i = 0: i <dna.length; i++){
+  for (let i = 0; i <dna.length; i++){
     switch (dna[i]){
       case "A":
       complements += "T"
